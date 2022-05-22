@@ -1,4 +1,226 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Grand Hotel', cursive;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Gowun Batang', serif;
+  font-size: 18px;
+}
+
+.h1-homepage {
+  font-size: 130px;
+  padding-left: 100px;
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+
+.h1-headings-homepage {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+.box-1-homepage {
+  height: auto;
+  background-color: #FFB997;
+  padding-bottom: 150px;
+}
+
+.h2Tag-homepage {
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+  padding-bottom: 60px;
+}
+
+.btn-primary {
+  background-color: #63B0CD;
+  color: black;
+  border: none;
+}
+
+.pTag-homepage {
+  font-size: 18px;
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.box-2-homepage {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.lakshmi-circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+}
+
+.circle-lakshmi {
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+}
+
+.nancy-circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+}
+
+.circle-nancy {
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+}
+
+.mira-circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+}
+
+.circle-mira {
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+}
+
+.info-lakshmi {
+  display: none;
+}
+
+.lakshmi-circle:hover + .info-lakshmi {
+  display: block;
+}
+
+.info-nancy {
+  display: none;
+}
+
+.nancy-circle:hover + .info-nancy {
+  display: block;
+}
+
+.info-mira {
+  display: none;
+}
+
+.mira-circle:hover + .info-mira {
+  display: block;
+}
+
+.box-3-homepage {
+  height: auto;
+  padding-bottom: 150px;
+  background-color: #E7E247;
+  padding: 80px;
+}
+
+.involved-homepage {
+  padding: 100px;
+}
+
+.footer {
+  text-align: center;
+  padding: 100px;
+  background-color: #735751;
+  color: white;
+}
+
+.h1-climate-change {
+  text-align: center;
+  font-size: 80px;
+  padding: 50px;
+}
+
+.h1-climate {
+  margin-inline-start: 200px;
+}
+
+.pTag-climate-change {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.facts {
+  margin-inline-start: 200px;
+  font-size: 18px;
+  font-family: 'Gowun Batang', serif;
+}
+
+.box-1-fossils {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.card {
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.h1Tag-fossil {
+  text-align: center;
+  font-size: 100px;
+  padding: 30px;
+}
+
+.h1-solutions {
+  font-size: 80px;
+  text-align: center;
+  padding: 60px;
+}
+
+.iframe-solutions {
+  padding: 100px;
+  
+}
+
+.pTag-solution {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.box1-solution {
+  padding-bottom: 100px;
+}
+
+.li-solutions {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+  font-size: 18px;
+  font-family: 'Gowun Batang', serif;
+}
+
+.h1-volunteering {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 50px;
+}
+
+.pTag-volunteer {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.card {
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
